@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacts App</title>
+  <script src="./index.js"></script>
+  <link href="./index.css" rel="stylesheet" />
+</head>
+<body onload="Contacts.init()">
+  <div class="container" id="container">
+    <div class="header">Contacts</div>
+    <div class="searchBarContainer">
+      <div class="searchBarLeft"></div>
+      <div class="searchBarRight">
+        <input class="searchInput" placeholder="Find Contacts" />
+      </div>
+    </div>
+    <div class="contactsContainer">
+      <div class="contactsLeftPanel"></div>
+      <div class="contactsRightPanel">
+        <div class="contactsTitle"></div>
+        <div class="contactsTable">
+          <div class="tableHeader"></div>
+          <div class="tableBody"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

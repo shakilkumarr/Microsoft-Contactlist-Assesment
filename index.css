@@ -1,0 +1,121 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  background: #fdf9f91c;
+  margin: 0;
+  font-size: 10px;
+}
+
+body * {
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+.header {
+  background: #80808073;
+  height: 8rem;
+  font-weight: bold;
+  font-size: 2.4rem;
+  padding: 2.4rem;
+}
+
+.searchBarContainer {
+  height: 6rem;
+  font-size: 2.4rem;
+  border-bottom: 0.1rem solid #80808073;
+  display: flex;
+}
+
+.searchBarLeft {
+  flex-basis: 85%;
+  border-right: 0.1rem solid #80808073;
+}
+
+.searchBarRight {
+  flex-basis: 15%;
+}
+
+.searchInput {
+  outline: none;
+  height: 6rem;
+  font-size: 1.6rem;
+  border: none;
+  border-bottom: 1px solid #80808073;
+  width: 100%;
+  padding-left: 2rem;
+}
+
+.contactsContainer {
+  display: flex;
+  height: calc(100% - 14rem);
+  width: 100%;
+}
+
+.contactsLeftPanel {
+  flex-basis: 20%;
+  border-right: 0.1rem solid #80808073;
+  padding: 2.4rem 2rem;
+  cursor: pointer;
+  font-size: 1.6rem;
+}
+
+.contactsRightPanel {
+  flex-basis: 80%;
+  padding: 2.4rem;
+}
+
+.contactsTitle {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.groupList {
+  height: 4rem;
+  border-radius: 0.1rem;
+  margin-bottom: 1.2rem;
+  padding: 0.8rem;
+}
+
+.groupList.sel {
+  background: #80808073;
+}
+
+.contactList {
+  width: 100%;
+  display: flex;
+  padding: 1.2rem 0;
+  border-bottom: 0.1rem solid #80808073;
+}
+
+.contactListItem {
+  flex-basis: 20%;
+}
+
+.contactsTable {
+  height: 100%;
+  padding: 2rem;
+  font-size: 1.6rem;
+}
+
+.spinner {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  font-size: 2.4rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.empty {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  height: 10rem;
+}
